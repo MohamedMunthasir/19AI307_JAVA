@@ -24,8 +24,8 @@ To create  a Java program to perform the inheritance concept for employee detail
  ```
 /*
 Program to implement a Inheritance using Java
-Developed by: MAHALAKHSMI U
-RegisterNumber: 212222060141
+Developed by: Mohamed Munthasir y
+RegisterNumber: 212222220025
 */
 ```
 
