@@ -20,8 +20,8 @@ To Create a java program to retrieve the key and value from hashtable for all in
  ```
 /*
 Program to implement a JAVA MAP & HASHMAP AND HASHTABLE using Java
-Developed by: MAHALAKSHMI U
-RegisterNumber: 212222060141
+Developed by: Mohamed Munthasir y
+RegisterNumber: 212222220025
 */
 ```
 
