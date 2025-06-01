@@ -13,8 +13,8 @@ To create a java program to append a string in a file “testout.txt” using Wr
  ```
 /*
 Program to implement a IO File Reader/Writer using Java
-Developed by: MAHALAKSHMI U
-RegisterNumber: 212222060141
+Developed by: Mohamed Munthasir y
+RegisterNumber: 212222220025
 */
 ```
 
