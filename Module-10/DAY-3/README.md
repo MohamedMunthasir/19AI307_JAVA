@@ -1,24 +1,23 @@
-# Ex.No:10(C)  JAVA LIST INTERFACE
- ## AIM :
+# Ex.No:10(D) JAVA HASHSET & LINKEDHASHSET
 
-To Create a List interface implemented by arraylist class , adding n elements to object of List interface and display the list is empty or not.
+## AIM:
+ To create a java program use hashset concepts in collection and add the elements to the hashset and then display the elements iterate(use while) in an unordered collection.
 
 
 ## ALGORITHM :
-1.	Start
+1.	Start the Program.
 2.	Import `java.util.*`
 3.	Define class `Main` with `main` method:
--	a) Initialize `Scanner` and an empty `ArrayList` named `list`
--	b) Read integer `n`
-4.	Check if `list` is empty, print corresponding message
-5.	Use a loop to add `n` strings to `list`
-6.	Check if `list` is empty again, print corresponding message
-7.	End
+-	a) Initialize `Scanner` and read integer `n`
+-	b) Create a `HashSet` named `hs` to store unique strings
+4.	Use a loop to read `n` strings and add each to `hs`
+5.	Use an enhanced `for` loop to print each element in `hs`
+6.	End
 
 ## PROGRAM:
  ```
 /*
-Program to implement a JAVA LIST INTERFACE using Java
+Program to implement a JAVA HASHSET & LINKEDHASHSET using Java
 Developed by: MAHALAKSHMI U
 RegisterNumber: 212222060141
 */
@@ -28,53 +27,36 @@ RegisterNumber: 212222060141
 ```
 import java.util.*;
 
+public class HashSetDemo{
 
-public class GFG {
+public static void main(String args[]){
 
-	public static void main(String args[])
-	{
-		Scanner sc=new Scanner(System.in);
-		
-        int size=sc.nextInt();
-        List<String> arr = new ArrayList<String>();
-  
-        boolean ans = arr.isEmpty();
-        if (ans == true)
-            System.out.println("The List is empty");
-        else
-            System.out.println("The List is not empty");
-  
-      
-        for(int i=0;i<size;i++)
-        {
-				arr.add(sc.next());
-        }
-        
-        
-        ans = arr.isEmpty();
-        if (ans == true)
-            System.out.println("The List is empty");
-        else
-            System.out.println("The List is not empty");
-        
 
-		
-	
-	}
+Scanner sc=new Scanner(System.in);
+ArrayList<String> list=new ArrayList<String>(); 
+int n=sc.nextInt();
+for(int i=0;i<n;i++)
+{
+    
+list.add(sc.next());
+
+}
+HashSet<String> set=new HashSet<String>(list);  
+set.add(sc.next());  
+Iterator<String> i=set.iterator();  
+while(i.hasNext())  
+{  
+System.out.println(i.next());  
+}  
+
+}
 }
 ```
 
 ## OUTPUT:
 
-![image](https://github.com/user-attachments/assets/d3c0d235-afc8-46b0-9322-8cf19d5bcecb)
+![image](https://github.com/user-attachments/assets/1872dbcf-5486-49b4-b8d2-a08ae8873f0a)
 
 ## RESULT:
-Thus the java program implemented a List interface for array list was executed and verified successfully.
-
-
-
-
-
-
-
+Thus the java program of hashmap concepts was executed and verified successfully.
 
