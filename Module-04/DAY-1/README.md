@@ -29,8 +29,8 @@ iii)Call the method to print area from r2.
  ```
 /*
 Program to implement a Constructor using Java
-Developed by: MAHALAKHSMI U
-RegisterNumber: 212222060141
+Developed by: Mohamed Munthasir y
+RegisterNumber: 212222220025
 */
 ```
 
