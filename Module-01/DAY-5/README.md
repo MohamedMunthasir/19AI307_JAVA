@@ -1,44 +1,56 @@
-# Ex.No:1(E)  STATIC VARIABLE
+# Ex.No:1(C) CONTROL STATEMENTS
 
 ## AIM:
-To write a Java program to print student details (name and age), where age is the same for all students. Use a static variable to represent the age and demonstrate its use in accessing a shared value across all class objects
+To develop a Java program to check given number is zero or not.
 
 ## ALGORITHM :
 1.	Start the program.
-2.	Create a class named Student.
-3.	Declare a static variable age in the Student class.
-4.	Declare an instance variable name.
-5.	Create a constructor to initialize the student's name.
-6.	Define a method displayDetails() to print the student's name and age.
-7.	In the main method:
-I.	Assign a value to the static variable age.
-II.	Create multiple Student objects with different names.
-III.	Call the displayDetails() method for each student.
-8.	End the program.
+2.	Declare an integer variable 'num'
+3.	Create a Scanner object 'sc' to read input from the user
+4.	Read an integer input from the user and store it in 'num'
+5.	Check if 'num' is equal to 0:
+a.	If true, print "Given number is Zero"
+b.	If false, print 'num' followed by " is Non-Zero"
+6.	End
+
+
 
 
 
 ## PROGRAM:
  ```
 /*
-Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
+Program to implement a class & objects using Java
+Developed by: Mohamed Munthasir y
+RegisterNumber: 212222220025
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
 
+public class Demo
+{
+    public static void main(String[] args)
+    {
+       Scanner sc=new Scanner(System.in);
+       int num=sc.nextInt();
+        if(num==0)
+        System.out.println("Given number is Zero");
+        else
+        {
+        	 System.out.println(num+ " is Non-Zero");
+        }
+    }
+}
 
-
-
-
-
-
+```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/2ce116ff-7c08-480d-af64-1c7f658acefb)
 
 
 ## RESULT:
-Thus, the Java program for the concept of using a static variable for shared data was correctly implemented and verified successfully. 
+Thus, the Java program to check given number is zero or not was created successfully.
 
