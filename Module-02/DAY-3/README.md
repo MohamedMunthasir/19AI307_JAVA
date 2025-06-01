@@ -26,8 +26,8 @@ To create a java program to read 3 values and display the all 3 values from arra
  ```
 /*
 Program to implement a Single Array using Java
-Developed by: MAHALAKHSMI U
-RegisterNumber: 212222060141
+Developed by: Mohamed Munthasir y
+RegisterNumber: 212222220025
 */
 ```
 
